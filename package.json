@@ -1,0 +1,34 @@
+{
+  "name": "webpack-external-test",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2",
+    "sinon": "^2.1.0",
+    "webpack": "^2.3.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "build": "npm install && ./node_modules/.bin/gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
+
+
